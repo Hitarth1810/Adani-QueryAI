@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment Variables (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# Logs and local diagnostics
+*.log
+backend/test_key.py
+frontend/scratch/
+
+# Large Data Files (Ignore these for GitHub)
+*.pdf
+*.zip
+backend/vector_store/
+backend/data/processed/
+backend/data/raw/*.pdf
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large image assets from processing
+backend/data/processed/images/
+frontend/.next/
